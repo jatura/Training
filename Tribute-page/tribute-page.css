@@ -1,0 +1,65 @@
+html {
+    font-size: 10px;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #ffd4ca;
+  }
+  h1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 5rem;
+    line-height: 1;
+  }
+  h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3rem;
+    line-height: 0.5;
+  }
+  h3 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 2rem;
+    line-height: 0.5;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  section {
+    text-align: left;
+    margin: 5rem 10rem;
+  }
+  a {
+    color: #477ca7;
+  }
+  a:visited {
+    color: #74638f;
+  }
+  #main {
+    padding: 10px 30px 10px 30px;
+    margin: 2rem 20rem;
+    border-radius: 10px;
+    background-color: white;
+  }
+  #img-div {
+    background: #efd5c3;
+    padding: 20px 0 10px 0;
+    margin: 0 5rem;
+    border-radius: 10px;
+  }
+  #img-caption {
+    line-height: 3;
+  }
+  #to-follow {
+    font-size: 2rem;
+    text-align: center;
+  }
+  #to-read {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
