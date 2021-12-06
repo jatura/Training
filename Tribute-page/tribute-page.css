@@ -79,7 +79,18 @@ html {
     line-height: 2;
   }
 
+  @media (max-width:1200px){
+    section{
+      margin:0;
+    }
+    #main{
+      margin: 0 10rem;
+    }
+  }
   @media (max-width:900px){
+    section{
+      margin:0;
+    }
     #main{
       margin: 0;
     }
