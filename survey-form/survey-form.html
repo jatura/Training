@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey form</title>
+    <link rel="stylesheet" href="survey-form.css">
+</head>
+
+<body>
+    <h1 id="title">Your favourite books</h1>
+    <p id="description">This survey form is a part of improving our book store. Thank you for answering.</p>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            class="form-control" 
+            placeholder="Your name"
+            required>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">E-mail</label>
+            <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-control"
+            placeholder="Your E-mail"
+            required>
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number">Age <span class="un">(Optional)</span></label>
+            <input 
+            type="number"
+            id="number" 
+            name="number"
+            class="form-control"
+            placeholder="Your age"
+            min="7"
+            max="100">
+        </div>
+        <div class="form-group">
+            <label id="dropdown-label" for="dropdown">Job</label>
+            <select name="dropdown" id="dropdown" class="form-control" required>
+                <option class="un" disabled selected>Your job</option>
+                <option value="student">Student</option>
+                <option value="Officer">Office worker</option>
+                <option value="teacher">Teacher</option>
+                <option value="entrep">Entrepreneur</option>
+                <option value="writer">Writer</option>
+                <option value="chef">Chef</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>What are your favourite book catagory <span class="un">(Check all that match you)</span></p>
+            <label>
+                <input 
+                type="checkbox" 
+                name="genre"
+                class="input-radio"
+                value="action">
+            Action</label>
+            <label>
+                <input 
+                type="checkbox" 
+                name="genre"
+                class="input-radio"
+                value="comic">
+            Comic</label>
+            <label>
+                <input 
+                type="checkbox" 
+                name="genre"
+                class="input-radio"
+                value="fantasy">
+            Fantasy</label>
+            <label>
+                <input 
+                type="checkbox" 
+                name="genre"
+                class="input-radio"
+                value="romance">
+            Romance</label>
+            <label>
+                <input 
+                type="checkbox" 
+                name="genre"
+                class="input-radio"
+                value="scifi">
+            Sci-fi</label>
+            <label>
+                <input 
+                type="checkbox" 
+                name="genre"
+                class="input-radio"
+                value="slicelife">
+            Slice of life</label>
+            <label>
+                <input 
+                type="checkbox" 
+                name="genre"
+                class="input-radio"
+                value="strategy">
+            Strategy</label>
+        </div>
+    </form>
+</body>
+
+</html>
