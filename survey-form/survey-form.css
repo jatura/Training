@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
+:root {
+    --color-white: #f3f3f3;
+    --color-darkbrown: #583e22;
+    --color-grey: grey;
+    --color-green: #37af65;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-white);
+    margin: 0%;
+}
+
+body::before{
+    content: '';
+    position: fixed;
+    top:0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkbrown);
+    background-image: linear-gradient(
+        115deg,
+        rgba(118, 83, 46, 0.8),
+        rgba(203, 165, 124, 0.7)
+      ),
+      url(https://images.unsplash.com/photo-1560435801-883c742e6d36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+}
+
+h1{
+    font-weight: 400;
+    line-height: 1;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+::placeholder{
+    color: var(--color-grey);
+}
