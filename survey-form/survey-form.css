@@ -3,7 +3,8 @@
 :root {
     --color-white: #f3f3f3;
     --color-darkbrown: #583e22;
-    --color-grey: grey;
+    --color-darkbrown-alpha: rgba(118, 83, 46, 0.8);
+    --color-grey: #b6bac4;
     --color-green: #37af65;
 }
 
@@ -60,7 +61,65 @@ p {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+  
+header {
+    padding: 3rem;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-bottom: 00.5rem;
+}
+
+input, button, select, textarea{
+    margin: 0;
+    font-family: inherit;
+    font-size: 1.5rem;
+    line-height: inherit;
+}
+
+button{
+    border: none;
+}
+
+.container{
+    width: 100%;
+    margin: 3rem auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+}
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+}
+
+.description{
+    font-weight: 1;
+}
+
+.un{
+    color: var(--color-grey);
+    margin-left: 0.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
 
 ::placeholder{
     color: var(--color-grey);
+}
+
+form{
+    background: var(--color-darkbrown-alpha);
+    padding: 3rem;
+    border-radius: 00.5rem;
 }
