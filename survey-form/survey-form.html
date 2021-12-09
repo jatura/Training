@@ -7,145 +7,149 @@
 </head>
 
 <body>
-    <h1 id="title">Your favourite books survey</h1>
-    <p id="description">This survey form is a part of improving our book store. Thank you for answering.</p>
-    <form id="survey-form">
-        <div class="form-group">
-            <label id="name-label" for="name">Name</label>
-            <input 
-            type="text" 
-            id="name" 
-            name="name" 
-            class="form-control" 
-            placeholder="Your name"
-            required>
-        </div>
-        <div class="form-group">
-            <label id="email-label" for="email">E-mail</label>
-            <input
-            type="email"
-            id="email"
-            name="email"
-            class="form-control"
-            placeholder="Your E-mail"
-            required>
-        </div>
-        <div class="form-group">
-            <label id="number-label" for="number">Age <span class="un">(Optional)</span></label>
-            <input 
-            type="number"
-            id="number" 
-            name="number"
-            class="form-control"
-            placeholder="Your age"
-            min="7"
-            max="100">
-        </div>
-        <div class="form-group">
-            <label id="dropdown-label" for="dropdown">Job</label>
-            <select name="dropdown" id="dropdown" class="form-control" required>
-                <option class="un" disabled selected>Your job</option>
-                <option value="student">Student</option>
-                <option value="Officer">Office worker</option>
-                <option value="teacher">Teacher</option>
-                <option value="entrep">Entrepreneur</option>
-                <option value="writer">Writer</option>
-                <option value="chef">Chef</option>
-                <option value="other">Other</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <p>What is your related to books role</p>
-            <lebel>
+    <div class="container">
+        <header>
+            <h1 id="title" class="text-center">Your favourite books survey</h1>
+            <p id="description" class="description text-center">This survey form is a part of improving our book store. Thank you for answering.</p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
                 <input 
-                type="radio"
-                name="book-role"
-                class="input-radio"
-                value="reader"
-                checked>
-            Reader</lebel>
-            <lebel>
+                type="text" 
+                id="name" 
+                name="name" 
+                class="form-control" 
+                placeholder="Your name"
+                required>
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">E-mail</label>
+                <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                placeholder="Your E-mail"
+                required>
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age <span class="un"> (Optional)</span></label>
                 <input 
-                type="radio"
-                name="book-role"
-                class="input-radio"
-                value="writer">
-            Writer</lebel>
-            <lebel>
-                <input 
-                type="radio"
-                name="book-role"
-                class="input-radio"
-                value="readwrite">
-            Both reader and writer</lebel>
-            <lebel>
-                <input 
-                type="radio"
-                name="book-role"
-                class="input-radio"
-                value="other">
-            Other</lebel>
-        </div>
-        <div class="form-group">
-            <p>What are your favourite book catagory <span class="un">(Check all that match you)</span></p>
-            <label>
-                <input 
-                type="checkbox" 
-                name="genre"
-                class="input-checkbox"
-                value="action">
-            Action</label>
-            <label>
-                <input 
-                type="checkbox" 
-                name="genre"
-                class="input-checkbox"
-                value="comic">
-            Comic</label>
-            <label>
-                <input 
-                type="checkbox" 
-                name="genre"
-                class="input-checkbox"
-                value="fantasy">
-            Fantasy</label>
-            <label>
-                <input 
-                type="checkbox" 
-                name="genre"
-                class="input-checkbox"
-                value="romance">
-            Romance</label>
-            <label>
-                <input 
-                type="checkbox" 
-                name="genre"
-                class="input-checkbox"
-                value="scifi">
-            Sci-fi</label>
-            <label>
-                <input 
-                type="checkbox" 
-                name="genre"
-                class="input-checkbox"
-                value="slicelife">
-            Slice of life</label>
-            <label>
-                <input 
-                type="checkbox" 
-                name="genre"
-                class="input-checkbox"
-                value="strategy">
-            Strategy</label>
-        </div>
-        <div class="form-group">
-            <label id="mostfav-label" for="mostfav">The most favourite book</label>
-            <textarea id="mostfav" name="mostfav" class="input-textarea" cols="50" rows="4" placeholder="Name of your most favourite book"></textarea>
-        </div>
-        <div class="form-group">
-            <button type="submit" id="submit" class="submit-button">Submit</button>
-        </div>
-    </form>
+                type="number"
+                id="number" 
+                name="number"
+                class="form-control"
+                placeholder="Your age"
+                min="7"
+                max="100">
+            </div>
+            <div class="form-group">
+                <label id="dropdown-label" for="dropdown">Job</label>
+                <select name="dropdown" id="dropdown" class="form-control" required>
+                    <option class="un" disabled selected>Your job</option>
+                    <option value="student">Student</option>
+                    <option value="Officer">Office worker</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="entrep">Entrepreneur</option>
+                    <option value="writer">Writer</option>
+                    <option value="chef">Chef</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>What is your related to books role</p>
+                <lebel>
+                    <input 
+                    type="radio"
+                    name="book-role"
+                    class="input-radio"
+                    value="reader"
+                    checked>
+                Reader</lebel>
+                <lebel>
+                    <input 
+                    type="radio"
+                    name="book-role"
+                    class="input-radio"
+                    value="writer">
+                Writer</lebel>
+                <lebel>
+                    <input 
+                    type="radio"
+                    name="book-role"
+                    class="input-radio"
+                    value="readwrite">
+                Both reader and writer</lebel>
+                <lebel>
+                    <input 
+                    type="radio"
+                    name="book-role"
+                    class="input-radio"
+                    value="other">
+                Other</lebel>
+            </div>
+            <div class="form-group">
+                <p>What are your favourite book catagory <span class="un">(Check all that match you)</span></p>
+                <label>
+                    <input 
+                    type="checkbox" 
+                    name="genre"
+                    class="input-checkbox"
+                    value="action">
+                Action</label>
+                <label>
+                    <input 
+                    type="checkbox" 
+                    name="genre"
+                    class="input-checkbox"
+                    value="comic">
+                Comic</label>
+                <label>
+                    <input 
+                    type="checkbox" 
+                    name="genre"
+                    class="input-checkbox"
+                    value="fantasy">
+                Fantasy</label>
+                <label>
+                    <input 
+                    type="checkbox" 
+                    name="genre"
+                    class="input-checkbox"
+                    value="romance">
+                Romance</label>
+                <label>
+                    <input 
+                    type="checkbox" 
+                    name="genre"
+                    class="input-checkbox"
+                    value="scifi">
+                Sci-fi</label>
+                <label>
+                    <input 
+                    type="checkbox" 
+                    name="genre"
+                    class="input-checkbox"
+                    value="slicelife">
+                Slice of life</label>
+                <label>
+                    <input 
+                    type="checkbox" 
+                    name="genre"
+                    class="input-checkbox"
+                    value="strategy">
+                Strategy</label>
+            </div>
+            <div class="form-group">
+                <label id="mostfav-label" for="mostfav">The most favourite book</label>
+                <textarea id="mostfav" name="mostfav" class="input-textarea" cols="50" rows="4" placeholder="Name of your most favourite book"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
