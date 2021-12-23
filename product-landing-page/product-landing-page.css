@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Josefin+Slab:ital,wght@1,700&family=Pridi:wght@300&display=swap');
+:root {
+    --color-blue: #BFD9D7;
+    --color-darkyellow: #AE9152;
+    --color-darkbrown-alpha: rgba(118, 83, 46, 0.8);
+    --color-yellow: #DDBB4D;
+    --color-darkblue: #353745;
+    --color-white: #E8E8E8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Pridi', serif;
+    font-size: 1.6rem;
+    color: var(--color-darkblue);
+    background-color: var(--color-white);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-blue);
+}
+
+footer {
+    bottom: 0;
+    margin: 0;
+    min-height: 60px;
+    padding: 0px 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-blue);
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Josefin Slab', serif;
+    line-height: 3rem;
+}
+
+a {
+    color: var(--color-darkblue);
+    font-weight: 600;
+}
+
+.icon {
+    color: var(--color-darkyellow);
+}
+
+#page-wrapper {
+    position: relative;
+}
+
+#intro {
+    margin-top: 100px;
+    text-align: center;
+    line-height: 2rem;
+}
+
+#intro-desc {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+#video {
+    max-width: 560px;
+    width: 100%;
+}
