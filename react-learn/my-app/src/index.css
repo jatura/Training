@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;700&display=swap');
+* {
+    margin: 0;
+    font-family: 'Mitr', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #F3E9CE;
+    color: #57524C;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+nav {
+    margin: 0%;
+    height: 10vh;
+    width: 100%;
+    min-height: 50px;
+    background-color: #FFB999;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+logo {
+    height: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-logo {
+    height: 70%;
+}
+
+.nav-topic {
+    padding-right: 5%;
+    text-align: end;
+}
+
+main {
+    margin-top: 10vh;
+    padding: 7% 5% 10% 5%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    row-gap: 200%;
+}
+
+.main-head {
+    padding-bottom: 5%;
+}
+
+.main-list {
+    line-height: 200%;
+    list-style-type: none;
+    width: 90vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 5vh;
+}
+
+section {
+    background-color: #C1D7AE;
+    width: 30%;
+    min-width: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2vh;
+    padding: 1vw;
+    align-items: center;
+    border-style: outset;
+}
+
+.list-detail {
+    width: 80%;
+    text-align: center;
+}
+
+footer {
+    background-color: #8CC084;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
